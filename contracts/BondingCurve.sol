@@ -24,7 +24,7 @@ contract BondingCurve is StandardToken, BancorFormula, Ownable {
    * 1/2 corresponds to y= multiple * x
    * 2/3 corresponds to y= multiple * x^1/2
    * multiple will depends on contract initialization,
-   * specificallytotalAmount and poolBalance parameters
+   * specifically totalAmount and poolBalance parameters
    * we might want to add an 'initialize' function that will allow
    * the owner to send ether to the contract and mint a given amount of tokens
   */
